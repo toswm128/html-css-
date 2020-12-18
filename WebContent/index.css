@@ -1,0 +1,14 @@
+#logo{
+    border:1rem solid black;
+    text-align: center;
+}
+#head_nav{
+    margin-top:1rem ;
+    border-top:1rem solid black;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
