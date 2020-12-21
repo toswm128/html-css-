@@ -1,14 +1,106 @@
+
+body{
+    padding:0;
+    margin:0;
+    overflow-x: none; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    background-color: darkgreen;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    top:0;
+}
+
 #logo{
     border:1rem solid black;
     text-align: center;
+    width: 80%;
 }
-#head_nav{
-    margin-top:1rem ;
-    border-top:1rem solid black;
-
+#site_content{
+    margin-left:220px;
+    width: 80%;
+    height:100%;
+    margin-top:80px;
+}
+#text{
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+#side{
+    height: 90%;
+    width:200px;
+    border:1px solid black;
+    position: fixed!important;
+    overflow: auto;
+    z-index: 1;
+}
+#side_scroll{
+    width: 100%;
+}
+.side_menu{
+    border-bottom:1px solid black;
+    height: 3rem;
+    background-color: #f1f1f1;
 }
 
-#menu{
+footer{
+    margin-left: 220px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color:darkgreen;
+}
+h5{
+    font:italic 95% arial;
+}
+table{
+    width: 80%;
+}
+th{
+    background-color: #bc8e85;
+}
+td{
+    background-color: #ffc2b6;
+    text-align: center;
+}
+aside{
+    width: 50%;
+    border-left: 1px solid black;
+    padding:1rem;
+}
+
+section{
+    width: 100%;
+}
+
+
+a, a:hover{ /*상태선택자이다 이히히*/
+    color:black;
+    outline: none;
+    text-decoration: none; /*  밑줄 */
+}
+
+a:hover{ /*상태선택자이다 이히히*/
+    color:gray;
+    outline: none;
+    text-decoration: underline; /*  밑줄 */
+}
+aside ul li{
+    list-style: none;
+    display: block;
+    line-height: 1.7rem;
+    padding:  0 0 0 25px;
+}
+button{
+    width: 100%;
+    height: 100%;
 }
