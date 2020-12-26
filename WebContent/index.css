@@ -53,6 +53,7 @@ header{
 }
 
 footer{
+    margin-top: 50vh;
     margin-left: 220px;
     display: flex;
     flex-direction: column;
@@ -106,4 +107,15 @@ button{
 }
 .font{
     font-family: 'Noto Sans KR', sans-serif;
+}
+.ramen{
+    z-index: 1;
+    float: top;
+    transition: all 1s;
+    background-color: white;
+    width: fit-content;
+}
+.ramen:hover{
+    transform: scale(1.5);
+    position: absolute;
 }
